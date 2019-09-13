@@ -5,4 +5,4 @@ BDD for blindtest at Devfest Nantes 2019
 https://dev.mysql.com/downloads/installer/
 
 # Create BDD
-RUN in cmd: mysql -h localhost -P 3306 -u root -p root --compress < create_db_blindtest.sql
+mysql -h localhost -P 3306 -uroot -proot --compress < create_db_blindtest.sql
