@@ -14,3 +14,10 @@ mysql -h localhost -P 3306 -uroot -proot --compress < create_db_blindtest.sql
 # Insert Data
 mysql -h localhost -P 3306 -uroot -proot --compress < insert_data_blindtest.sql
 
+# With Docker
+
+Run :
+ 
+ `docker-compose up`
+
+ 
